@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/metropola127/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
