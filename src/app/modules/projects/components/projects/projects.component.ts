@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
-
+  markdown = 'assets/markdown/projects.md'
 }

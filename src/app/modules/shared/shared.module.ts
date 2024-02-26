@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { withFetch } from '@angular/common/http';
 
 import { SecurityContext } from '@angular/core';
 import { MarkdownModule, provideMarkdown } from 'ngx-markdown';
 import { HttpClient, HttpClientModule, provideHttpClient } from '@angular/common/http';
+import { PostWrapperComponent } from './components/post-wrapper/post-wrapper.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PostWrapperComponent
+  ],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -17,12 +21,13 @@ import { HttpClient, HttpClientModule, provideHttpClient } from '@angular/common
     MarkdownModule.forChild()
   ],
   providers: [
-    provideHttpClient(),
+    provideHttpClient(withFetch()),
     provideMarkdown({ loader: HttpClient }),
   ],
   exports: [
     CommonModule,
-    MarkdownModule
+    MarkdownModule,
+    PostWrapperComponent
   ]
 })
 export class SharedModule { }

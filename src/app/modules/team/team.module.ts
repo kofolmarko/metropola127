@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TeamRoutingModule } from './team-routing.module';
 import { TeamComponent } from './components/team/team.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { TeamComponent } from './components/team/team.component';
   ],
   imports: [
     CommonModule,
+    SharedModule,
     TeamRoutingModule
   ]
 })

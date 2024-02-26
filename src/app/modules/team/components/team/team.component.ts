@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './team.component.scss'
 })
 export class TeamComponent {
-
+  markdown = 'assets/markdown/team.md';
 }
