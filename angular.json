@@ -126,9 +126,6 @@
               "node_modules/prismjs/plugins/line-highlight/prism-line-highlight.js"
             ]
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
