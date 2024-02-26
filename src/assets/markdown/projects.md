@@ -13,4 +13,4 @@
 
  It's a fun and easy way to play chess, making it more awesome for everyone.
 
-![ChessSegmentation](assets/chess.gif)
+![ChessSegmentation](assets/project_gifs/chess.gif)
