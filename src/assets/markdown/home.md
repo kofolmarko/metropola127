@@ -12,7 +12,7 @@
 
 The team is composed of a group of enthusiastic students who are passionate about technology and eager to learn. Each individual brings a unique energy to the team, always seeking new knowledge and pushing the boundaries of what is possible. With dedication and curiosity, we contribute to the vibrant and innovative atmosphere of metropola127. Together, we strive to make a difference in the world by leveraging our skills and embracing the challenges that come our way.
 
-Please enjoy your stay in the city and check out our **[projects]('./projects')** to see what we are about.
+Please enjoy your stay in the city and check out our **[projects](./projects)** to see what we are about.
 
 ---
 

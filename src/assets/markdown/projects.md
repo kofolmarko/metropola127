@@ -2,6 +2,8 @@
 
 Our team loves to create fun and interesting projects. We specialize in different parts of technology, ranging from machine learning, to home automation. We always like to keep our projects concise and pleasing to look at.
 
+Here are just some of our more interesting project from the past year.
+
 ---
 
 ## AuroLume Blade
