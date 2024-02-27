@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { CountdownModule } from 'ngx-countdown';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     BrowserModule,
     AppRoutingModule,
     MatSlideToggleModule,
+    CountdownModule
   ],
   providers: [
     provideClientHydration(),
