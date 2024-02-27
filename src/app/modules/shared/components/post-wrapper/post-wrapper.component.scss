@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 1em;
+    padding: 1em 3em;
     margin: 3em;
     border-radius: 1em;
     box-shadow: inset 0 0 2px black;
@@ -10,19 +10,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     margin-bottom: 0.5em;
     padding-bottom: 0.3em;
-    border-bottom: 1px solid #ddd;
 }
 
 h1 {
     font-size: 2.0em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee;
+    border-bottom: 5px solid #dddddd6e;
 }
 
 h2 {
     font-size: 1.5em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee;
 }
 
 h3 {
@@ -115,7 +113,7 @@ blockquote {
 hr {
     height: 0;
     border: none;
-    border-top: 1px solid #eee;
+    border-top: 3px solid #eeeeee60;
     margin: 1.5rem 0;
 }
 
@@ -126,4 +124,5 @@ p:has(img) {
 img {
     border-radius: 1em;
     box-shadow: inset 0 0 2px black;
+    width: 100%;
 }
